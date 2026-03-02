@@ -1,4 +1,4 @@
-## Algorithmic_desining_and_analysis
+## Algorithmic_desining_and_analysis:
  1. Introduction to Algorithms
 An algorithm is a finite, well-defined sequence of steps used to solve a problem.
 Key Characteristics:
