@@ -1,6 +1,8 @@
 ## Algorithmic_desining_and_analysis:
+
  1. Introduction to Algorithms
 An algorithm is a finite, well-defined sequence of steps used to solve a problem.
+
 Key Characteristics:
 Input
 Output
@@ -10,9 +12,11 @@ Effectiveness
 Performance Measures:
 Time Complexity – Execution time as input size grows
 Space Complexity – Memory usage as input size grows
+ 
  2. Asymptotic Analysis
 Asymptotic analysis evaluates algorithm performance for large inputs.
 Notation
+
 Meaning
 Case
 O(n)
@@ -23,6 +27,7 @@ Lower bound
 Best case
 Θ(n)
 Tight bound
+
 Average case
 Common Time Complexities:
 O(1) – Constant
