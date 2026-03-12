@@ -29,3 +29,7 @@ Step	Index (i)	Element	Comparison
 
 Result:
 Element 32 is found at index 3 (or position 4 in human counting).
+
+Time Complexity
+Best Case: O(1) (element found at first position)
+Worst Case: O(n) (element at last position or not present)
