@@ -1,28 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 void Exch(int *p, int *q){
     int temp = *p;
     *p = *q;
     *q = temp;
 }
-
 void Quicksort(int a[], int low, int high){
     int i, j, key;
-
-    if(low >= high)
+ if(low >= high)
         return;
-
-    key = low;
+ key = low;
     i = low + 1;
     j = high;
 
-    while(i <= j){
+  while(i <= j){
         while(i <= high && a[i] <= a[key])
             i++;
-
-        while(a[j] > a[key])
+     while(a[j] > a[key])
             j--;
 
         if(i < j)
