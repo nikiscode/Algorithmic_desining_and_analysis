@@ -1,4 +1,4 @@
-//Arrays 
+//Arrays practice 
 #include <stdio.h>
 
 int main() {
