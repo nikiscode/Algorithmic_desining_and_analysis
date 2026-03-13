@@ -1,3 +1,4 @@
+##merge sort
 Algorithm MergeSort(A, left, right)
 
 1. if left < right then
