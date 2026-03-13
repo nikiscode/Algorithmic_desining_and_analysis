@@ -1,3 +1,4 @@
+##practise code
 #include <stdio.h>
 
 /* Function to swap two numbers */
