@@ -1,4 +1,4 @@
-//Quick sort 
+##Quick sort 
 #include <stdio.h>
 
 /* Function to swap two numbers */
