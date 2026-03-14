@@ -1,4 +1,4 @@
-##merge sort
+##merge sort pseodocode
 Algorithm MergeSort(A, left, right)
 
 1. if left < right then
