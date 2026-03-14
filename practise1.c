@@ -1,4 +1,4 @@
-##pracrise codes
+##Practise codes 
 #include <stdio.h>
 
 /* Function to swap two numbers */
