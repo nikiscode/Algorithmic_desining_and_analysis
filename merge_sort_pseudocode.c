@@ -1,6 +1,5 @@
 ##merge sort pseodocode
-Algorithm MergeSort(A, left, right)
-
+//Algorithm MergeSort(A, left, right)
 1. if left < right then
 2.     mid ← (left + right) / 2
 3.     MergeSort(A, left, mid)
@@ -8,6 +7,7 @@ Algorithm MergeSort(A, left, right)
 5.     Merge(A, left, mid, right)
 6. end if
   Example Solution (Step-by-Step)
+
 Given Array
 A = [8, 3, 5, 2, 4]
 Step 1 – Divide
@@ -23,7 +23,8 @@ Merge [8] and [3,5]
 Compare:
 3 < 8
 5 < 8
-Result:
+
+  Result:
 [3,5,8]
 Merge [2] and [4]
 [2] [4] → [2,4]
@@ -38,7 +39,8 @@ Comparisons:
 8 → [2,3,4,5,8]
 Final Sorted Array
 [2,3,4,5,8]
-Time Complexity
+
+  Time Complexity
 Case	Complexity
 Best Case	O(n log n)
 Average Case	O(n log n)
