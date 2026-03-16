@@ -3,14 +3,14 @@
 1. Introduction to Algorithms
 An algorithm is a finite, well-defined sequence of steps used to solve a problem.
 
-##Key Characteristics:
+//Key Characteristics:
 Input
 Output
 Finiteness
 Definiteness
 Effectiveness
 
-##Performance Measures:
+//Performance Measures:
 Time Complexity – Execution time as input size grows
 Space Complexity – Memory usage as input size grows
 
@@ -29,7 +29,7 @@ Best case
 Tight bound
 Average case
 
-##Common Time Complexities:
+//Common Time Complexities:
 O(1) – Constant
 O(log n) – Logarithmic
 O(n) – Linear
@@ -41,7 +41,7 @@ Substitution Method
 Recursion Tree Method
 Master Theorem
 
-##Example:
+//Example:
 T(n) = 2T(n/2) + n → O(n log n)
 
 4. Divide and Conquer
@@ -50,7 +50,7 @@ Divide the problem
 Solve subproblems recursively
 Combine results
 
-##Examples:
+//Examples:
 Merge Sort
 Quick Sort
 Binary Search
@@ -74,7 +74,7 @@ Techniques:
 Memoization (Top-Down)
 Tabulation (Bottom-Up)
 
-##Examples:
+//Examples:
 0/1 Knapsack
 Longest Common Subsequence
 Matrix Chain Multiplication
@@ -84,7 +84,7 @@ Systematic search technique that:
 Explores all possibilities
 Backtracks when a constraint fails
 
-##Examples:
+//Examples:
 N-Queens Problem
 Subset Sum
 Graph Coloring
@@ -92,7 +92,7 @@ Graph Coloring
 8. Branch and Bound
 An optimization technique that reduces search space using bounding.
 
-##Example:
+//Example:
 Travelling Salesman Problem (TSP)
  
  9. Graph Algorithms
