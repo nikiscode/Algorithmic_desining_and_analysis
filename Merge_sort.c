@@ -4,7 +4,6 @@
 #include <time.h>
 long long comparisons = 0;   // counts element comparisons
 long long movements = 0;     // counts data movements
-/* ---------- MERGE FUNCTION ---------- */
 void merge(int a[], int low, int mid, int high)
 {
     int i = low, j = mid + 1, k = 0;
@@ -42,7 +41,6 @@ void merge(int a[], int low, int mid, int high)
     }
     free(temp);
 }
-/* ---------- MERGE SORT FUNCTION ---------- */
 void mergeSort(int a[], int low, int high)
 {
     if (low < high)
@@ -53,8 +51,6 @@ void mergeSort(int a[], int low, int high)
         merge(a, low, mid, high);
     }
 }
-
-/* ---------- MAIN FUNCTION ---------- */
 int main()
 {
     int n, i;
