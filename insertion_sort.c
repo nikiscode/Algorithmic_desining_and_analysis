@@ -1,5 +1,5 @@
-##insertion sort pseudocode and its example
-Algorithm InsertionSort(A, n)
+//insertion sort pseudocode and its example
+//Algorithm InsertionSort(A, n)
 1. For i ← 1 to n-1 do
 2.     key ← A[i]
 3.     j ← i - 1
