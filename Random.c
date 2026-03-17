@@ -1,28 +1,35 @@
 //Random importion of the numbers
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 void Exch(int *p, int *q){
+   
     int temp = *p;
     *p = *q;
     *q = temp;
 }
+
 void Quicksort(int a[], int low, int high){
+   
     int i, j, key;
  if(low >= high)
         return;
- key = low;
+
+    key = low;
     i = low + 1;
     j = high;
 
   while(i <= j){
-        while(i <= high && a[i] <= a[key])
+       
+      while(i <= high && a[i] <= a[key])
             i++;
      while(a[j] > a[key])
             j--;
          if(i < j)
             Exch(&a[i], &a[j]);
     }
+  
     Exch(&a[key], &a[j]);
     Quicksort(a, low, j - 1);
     Quicksort(a, j + 1, high);
@@ -33,11 +40,13 @@ int main(){
     printf("Enter number of elements: ");
     scanf("%d", &n);
     if(n <= 20){
+       
         printf("Enter %d elements:\n", n);
         for(i = 0; i < n; i++)
             scanf("%d", &a[i]);
     }
     else{
+     
         srand(time(0));
         for(i = 0; i < n; i++)
             a[i] = rand() % 10000;
