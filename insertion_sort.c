@@ -1,5 +1,6 @@
 //insertion sort pseudocode and its example
 //Algorithm InsertionSort(A, n)
+
 1. For i ← 1 to n-1 do
 2.     key ← A[i]
 3.     j ← i - 1
@@ -10,7 +11,6 @@
 8.     A[j + 1] ← key
 9. End For
 End Algorithm
-
 ##Explanation (Short)
 Start from the second element.
 Compare it with the previous elements.
@@ -20,8 +20,7 @@ Time Complexity
 Best Case: O(n) (already sorted)
 Average Case: O(n²)
 Worst Case: O(n²)
-
-  ##Example:
+##Example:
   Array:
 A = [8, 3, 5, 2, 4]
 n = 5
