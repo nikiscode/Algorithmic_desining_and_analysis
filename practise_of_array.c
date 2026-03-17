@@ -1,6 +1,5 @@
 //Arrays practice version or code
 #include <stdio.h>
-
 int main() {
     int i, n;
 
