@@ -1,13 +1,11 @@
-##Practise code
+//Practise code
 #include <stdio.h>
-
 /* Function to swap two numbers */
 void Exch(int *p, int *q) {
     int temp = *p;
     *p = *q;
     *q = temp;
 }
-
 /* Quick Sort Function */
 void quicksort(int a[], int low, int high) {
     int i, j, pivot;
