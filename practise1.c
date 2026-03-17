@@ -1,13 +1,11 @@
-##Practise codes 
+//Practise codes 
 #include <stdio.h>
-
 /* Function to swap two numbers */
 void Exch(int *p, int *q) {
     int temp = *p;
     *p = *q;
     *q = temp;
 }
-
 /* Quick Sort Function */
 void quicksort(int a[], int low, int high) {
     int i, j, pivot;
@@ -30,11 +28,9 @@ void quicksort(int a[], int low, int high) {
         if (i < j)
             Exch(&a[i], &a[j]);
     }
-
-    // Place pivot in correct position
+ // Place pivot in correct position
     Exch(&a[low], &a[j]);
-
-    // Recursive calls
+  // Recursive calls
     quicksort(a, low, j - 1);
     quicksort(a, j + 1, high);
 }
