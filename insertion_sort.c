@@ -1,6 +1,5 @@
 //insertion sort pseudocode and its example
 //Algorithm InsertionSort(A, n)
-
 1. For i ← 1 to n-1 do
 2.     key ← A[i]
 3.     j ← i - 1
@@ -21,6 +20,7 @@ Best Case: O(n) (already sorted)
 Average Case: O(n²)
 Worst Case: O(n²)
 ##Example:
+  
   Array:
 A = [8, 3, 5, 2, 4]
 n = 5
@@ -28,6 +28,7 @@ Step 1 (i = 1)
 key = A[1] = 3
 j = 0
 Compare:
+
 A[0] = 8 > 3 → shift 8 to right
 Array after shift:
 [8, 8, 5, 2, 4]
@@ -37,6 +38,7 @@ Step 2 (i = 2)
 key = A[2] = 5
 j = 1
 Compare:
+
 A[1] = 8 > 5 → shift
 Array:
 [3, 8, 8, 2, 4]
