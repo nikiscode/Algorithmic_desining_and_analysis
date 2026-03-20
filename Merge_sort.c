@@ -1,7 +1,7 @@
 //merge sort
+
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <time.h>
 long long comparisons = 0;   // counts element comparisons
 long long movements = 0;     // counts data movements
