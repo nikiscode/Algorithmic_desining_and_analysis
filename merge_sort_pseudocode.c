@@ -1,21 +1,25 @@
-//merge sort pseodocode
+
+..//merge sort pseodocode
 //Algorithm MergeSort(A, left, right)
 1. if left < right then
 2.     mid ← (left + right) / 2
-3.     MergeSort(A, left, mid)
+3.    MergeSort(A, left, mid)
 4.     MergeSort(A, mid + 1, right)
 5.     Merge(A, left, mid, right)
 6. end if
 ##Example Solution (Step-by-Step)
+ 
 Given Array
 A = [8, 3, 5, 2, 4]
 Step 1 – Divide
 Split array until single elements.
+ 
 [8,3,5,2,4]
 → [8,3,5]   [2,4]
 → [8] [3,5]   [2] [4]
 → [8] [3] [5] [2] [4]
-Step 2 – Merge Small Arrays
+Step 2 – Merge Small Arrays.
+
 Merge [3] and [5]
 [3] [5] → [3,5]
 Merge [8] and [3,5]
