@@ -1,4 +1,5 @@
 //linear search algorithm
+
 LinearSearch(A, n, key)
 1. Start
 2. Set i = 0
@@ -14,7 +15,8 @@ LinearSearch(A, n, key)
   ## Example
 Array:
 A = [12, 25, 8, 32, 17]
-Key to search:
+
+ ##Key to search:
 key = 32
 Step-by-Step Process
 Step	Index (i)	Element	Comparison
