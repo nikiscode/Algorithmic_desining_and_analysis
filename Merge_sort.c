@@ -1,5 +1,4 @@
 //merge sort
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -53,6 +52,7 @@ void mergeSort(int a[], int low, int high)
         merge(a, low, mid, high);
     }
 }
+
 int main()
 {
     int n, i;
@@ -67,12 +67,10 @@ int main()
         a[i] = rand() % 100;
         printf("%d ", a[i]);
     }
-
-    clock_t start = clock();
+  clock_t start = clock();
     mergeSort(a, 0, n - 1);
     clock_t end = clock();
-
-    printf("\n\nSorted array:\n");
+ printf("\n\nSorted array:\n");
     for (i = 0; i < n; i++)
         printf("%d ", a[i]);
     double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
