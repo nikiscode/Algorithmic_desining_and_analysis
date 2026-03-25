@@ -1,4 +1,5 @@
-//linear search algorithm
+//linear search algorithm:
+
 LinearSearch(A, n, key)
 1. Start
 2. Set i = 0
