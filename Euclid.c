@@ -1,3 +1,4 @@
+//Euclid Algorithm
 ALGORITHM Euclid(m, n)
 Step 1 If n = 0, return m and stop; otherwise proceed to Step 2
 Step 2 Divide m by n and assign the value of the remainder to r
