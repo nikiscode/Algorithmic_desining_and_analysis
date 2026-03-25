@@ -1,4 +1,4 @@
-//merge sort
+//merge sort;
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
