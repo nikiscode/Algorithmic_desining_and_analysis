@@ -1,5 +1,5 @@
 //Enigma Algorithm
-ALGORITHM Enigma(A[0..n − 1, 0..n − 1])
+//ALGORITHM Enigma(A[0..n − 1, 0..n − 1])
 //Input: A matrix A[0..n − 1, 0..n − 1] of real numbers
 for i ←0 to n − 2 do
 for j ←i + 1 to n − 1 do
