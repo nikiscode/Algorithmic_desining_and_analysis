@@ -1,5 +1,5 @@
 //f(n) Algorithm
-ALGORITHM F(n)
+//ALGORITHM F(n)
 //Computes n! recursively
 //Input: A nonnegative integer n
 //Output: The value of n!
