@@ -1,5 +1,3 @@
-
-
 //MatrixSum Algorithm
 ALGORITHM MatrixSum (A[0…n-1, 0…n-1], B[0…n-1, 0…n-1])
 //Adds two n-by-n matrices
