@@ -1,5 +1,6 @@
 
 
+
 //MaxElement Algorithm
 ALGORITHM MaxElement(A[0…n-1])
 //Determines the value of the largest element in a given array
