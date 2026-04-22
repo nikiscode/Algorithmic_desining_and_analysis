@@ -1,6 +1,8 @@
 
 
 
+
+
 //Armstrom
 public class ArmstrongNumber {
     
