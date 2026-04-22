@@ -1,6 +1,9 @@
 
 
 
+
+
+
 //Euclid Algorithm
 ALGORITHM Euclid(m, n)
 Step 1 If n = 0, return m and stop; otherwise proceed to Step 2
