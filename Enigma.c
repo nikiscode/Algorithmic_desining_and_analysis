@@ -1,8 +1,3 @@
-.
-
-
-
-
 //Enigma Algorithm
 //ALGORITHM Enigma(A[0..n − 1, 0..n − 1])
 //Input: A matrix A[0..n − 1, 0..n − 1] of real numbers
