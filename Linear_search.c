@@ -1,3 +1,5 @@
+
+
 //linear search algorithm:
 LinearSearch(A, n, key)
 1. Start
