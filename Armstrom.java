@@ -1,7 +1,3 @@
-
-
-
-
 //Armstrom
 public class ArmstrongNumber {
     **
