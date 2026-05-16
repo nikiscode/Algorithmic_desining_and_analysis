@@ -1,23 +1,17 @@
 //jobs
 #include <stdio.h>
-
 struct Job {
     int id, deadline, profit;
 };
-
 int main() {
     int n;
-
     printf("Enter number of jobs: ");
     scanf("%d", &n);
-
     struct Job jobs[20], temp;
-
     printf("Enter Job details (ID Deadline Profit):\n");
     for (int i = 0; i < n; i++) {
         scanf("%d %d %d", &jobs[i].id, &jobs[i].deadline, &jobs[i].profit);
     }
-
     // Sort jobs by profit (descending) - simple bubble sort
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
