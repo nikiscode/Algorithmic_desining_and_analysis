@@ -1,4 +1,4 @@
-From a given vertex in a weighted connected graph, find shortest paths to other vertices using Dijkstra's algorithm. 
+    From a given vertex in a weighted connected graph, find shortest paths to other vertices using Dijkstra's algorithm. 
 
 Dijkstra’s algorithm finds the shortest paths to a graph’s vertices in order of their distance from a given source. First, it finds the shortest path from the source to a vertex nearest to it, then to a second nearest, and so on.
 
