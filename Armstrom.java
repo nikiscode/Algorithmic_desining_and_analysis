@@ -1,4 +1,4 @@
-//Armstrom
+  //Armstrom
 public class ArmstrongNumber {
     **
      * Check if a number is an Armstrong number.
