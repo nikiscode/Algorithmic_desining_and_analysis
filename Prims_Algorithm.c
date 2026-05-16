@@ -1,4 +1,4 @@
-Find Minimum Cost Spanning Tree of a given undirected graph using Prim’s algorithm.
+\\Find Minimum Cost Spanning Tree of a given undirected graph using Prim’s algorithm.
 Prim’s algorithm constructs a minimum spanning tree through a sequence of expanding subtrees. The initial subtree in such a sequence consists of a single vertex selected arbitrarily from the set V of the graph’s vertices. On each iteration, the algorithm expands the current tree in the greedy manner by simply attaching to it the nearest vertex not in that tree. The algorithm stops after all the graph’s vertices have been included in the tree being constructed
 
 ALGORITHM:
