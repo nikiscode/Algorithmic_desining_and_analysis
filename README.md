@@ -1,29 +1,15 @@
-
-
-
-
-
-
-
-
-
-
-
 // Algorithmic_desining_and_analysis:
 1. Introduction to Algorithms
 An algorithm is a finite, well-defined sequence of steps used to solve a problem.
-
 //Key Characteristics:
 Input
 Output
 Finiteness
 Definiteness
 Effectiveness
-
 //Performance Measures:
 Time Complexity – Execution time as input size grows
 Space Complexity – Memory usage as input size grows
-
 3. Asymptotic Analysis
 Asymptotic analysis evaluates algorithm performance for large inputs.
 Notation
@@ -50,7 +36,6 @@ Substitution Method
 Recursion Tree Method
 Master Theorem
 //Example:
-
 T(n) = 2T(n/2) + n → O(n log n)
 5. Divide and Conquer
 A problem-solving technique involving:
