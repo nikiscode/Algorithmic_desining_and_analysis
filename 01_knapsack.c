@@ -1,4 +1,4 @@
-//01 knapsack 
+ //01 knapsack 
 #include <stdio.h>
 #include <stdlib.h>
 // Function to return maximum of two numbers
