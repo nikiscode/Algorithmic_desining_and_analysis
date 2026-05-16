@@ -1,4 +1,4 @@
-7	Implement N Queen's problem using Back Tracking.
+\\Implement N Queen's problem using Back Tracking.
 N Queen’s problem is to place n queens on an n × n chessboard so that no two queens attack each other by being in the same row or in the same column or on the same diagonal. For n = 1, the problem has a trivial solution, and it is easy to see that there is no solution for n = 2 and n = 3.
 
 PROGRAM :
